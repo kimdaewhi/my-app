@@ -1,13 +1,12 @@
 import './App.css';
-import UseReducerExam from './components/8_Hook/HookExample3'
-import Reducer from './components/8_Hook/Reducer'
+import ThankyouDialog from './components/9_Composition/ThankyouDialog'
 
 function App() {
   return (
     <div className="App">
-      <UseReducerExam/>
-      <Reducer/>
       
+      <ThankyouDialog/>
+
       {/* 👉 강의 목차 순서대로 정리한 내용
       <Composition/>
       <Extraction/>
@@ -18,12 +17,18 @@ function App() {
       <Condition/>
       <ListAndKey/>
 
-      <Controlled/>
+      <Controlled/>s
       <br/>
       <Uncontrolled/>
 
       <HookExample1/>
       <HookExample2/>
+
+      <UseReducerExam/>
+      <Reducer/>
+
+      <WelcomeDialog/>
+      <Dialog/>
         */}
     </div>
   );
