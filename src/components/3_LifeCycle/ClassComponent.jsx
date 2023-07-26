@@ -7,6 +7,9 @@ export default class ClassComponent extends Component {
         this.state = { date: new Date() };
         // this.handleClick =this.handleClick.bind(this);          // event Delegate같은 의미
     };
+    /* 생성자에서 super(porps)를 항상 쓰는 이유 */
+    // 부모클래스인 Component의 생성자를 먼저 실행함으로써 자식 클래스인 React 컴포넌트에서 this.props를 사용할 수 있다.
+    // 즉, React에서 클래스 컴포넌트를 작성할 때 기본적인 패턴 중 하나이다.
 
     componentDidMount() {
         console.log('DidMount');

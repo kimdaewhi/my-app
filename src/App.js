@@ -1,11 +1,9 @@
 import './App.css';
-import ThankyouDialog from './components/9_Composition/ThankyouDialog'
+import Memo from './components/11_Memoization/Memo'
 
 function App() {
   return (
     <div className="App">
-      
-      <ThankyouDialog/>
 
       {/* 👉 강의 목차 순서대로 정리한 내용
       <Composition/>
@@ -17,7 +15,7 @@ function App() {
       <Condition/>
       <ListAndKey/>
 
-      <Controlled/>s
+      <Controlled/>
       <br/>
       <Uncontrolled/>
 
@@ -29,6 +27,11 @@ function App() {
 
       <WelcomeDialog/>
       <Dialog/>
+      <ThankyouDialog/>
+
+      <Input/>{' '}
+      <HOCExample/>
+      <Memo/>
         */}
     </div>
   );

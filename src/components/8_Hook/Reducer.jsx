@@ -31,7 +31,9 @@ export default function HookExample3() {
     return (
         <div>
             Count : {state.count}{' '}
+            <br/>
             Name : {state.name}{' '}
+            <br/>
             <button onClick={()=> {
                 setAction({type: 'reset'});
                 dispatch({type: 'reset'}); 
