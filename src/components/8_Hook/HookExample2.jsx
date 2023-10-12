@@ -23,6 +23,7 @@ export default class HookExample2 extends React.Component {
         return (
             <>
                 <div>
+                    <h2>Hook Example 2</h2>
                     <p>You clicked {this.state.count} times</p>
                     <button onClick={() => this.setState({ count: this.state.count + 1 })}>Click Me!</button>
                 </div>

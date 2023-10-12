@@ -21,6 +21,7 @@ export default function HookExample() {
     return (
         <>
             <div>
+                <h2>Hook Example 1</h2>
                 <p>You clicked {count} times</p>
                 <button onClick={() => setCount(count + 1)}>Click me</button>
                 <br/>

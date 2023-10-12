@@ -1,10 +1,12 @@
 import './App.css';
-import Memo from './components/11_Memoization/Memo'
+import HookExample4 from './components/8_Hook/HookExample4'
+import Reducer from './components/8_Hook/Reducer'
+import Reducer2 from './components/8_Hook/Reducer2'
 
 function App() {
   return (
     <div className="App">
-
+      <Reducer2/>
       {/* 👉 강의 목차 순서대로 정리한 내용
       <Composition/>
       <Extraction/>
@@ -21,6 +23,8 @@ function App() {
 
       <HookExample1/>
       <HookExample2/>
+      <HookExample3/>
+      <HookExample4/>
 
       <UseReducerExam/>
       <Reducer/>
@@ -32,6 +36,11 @@ function App() {
       <Input/>{' '}
       <HOCExample/>
       <Memo/>
+
+      <Example/>
+      <Example2/>
+
+      <RenderProps/>
         */}
     </div>
   );
